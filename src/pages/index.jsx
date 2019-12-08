@@ -43,7 +43,6 @@ const HomePage = () => {
 						<p>Dart and Flutter; Python; Java; C; MATLAB</p>
 					<h3>Technologies</h3>
 						<p>Git; Vim; SVN; use of Linux Systems</p>
-						
 			</Layout>
 		</div>
 	)

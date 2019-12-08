@@ -14,7 +14,10 @@ const Head = ({ title }) => {
 	`)
 
 	return (
-		<Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
+		<Helmet>
+			<title>{`${title} | ${data.site.siteMetadata.title}`}</title>
+			<meta name="google-site-verification" content="dg_20WpNyHVqoFcyzXEu3wuwh3m7LDryyOD_8dICD20" />
+		</Helmet>
 	)
 }
 
