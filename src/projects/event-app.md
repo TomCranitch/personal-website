@@ -1,7 +1,7 @@
 ---
-name: "Flutter Event App"
-technologies: "Flutter, Dart, Firebase, Sportify Web API and Web Playback SDK"
-image: "./even-list.png"
+name: Flutter Event App
+technologies: Flutter, Dart, Firebase, Sportify Web API and Web Playback SDK
+image: event-list.png
 ---
 
 This app provides event managers with the tools necessary to manage great events. It includes the ability to scan and distribute tickets, show attendee lists and manage a shared Spotify playlist.
