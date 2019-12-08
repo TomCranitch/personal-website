@@ -43,7 +43,7 @@ const ProjectsPage = () => {
 							<Img fluid={ node.frontmatter.image.childImageSharp.fluid } className={ ProjectsStyles.featureImg }/>
 							<div className={ ProjectsStyles.content }>
 								<h2>{ node.frontmatter.name }</h2>
-								<p>{ node.frontmatter.technologies }</p>
+								<p className={ProjectsStyles.tech}>{ node.frontmatter.technologies }</p>
 								<div dangerouslySetInnerHTML={{ __html: node.html }}></div>
 							</div>
 						</li>

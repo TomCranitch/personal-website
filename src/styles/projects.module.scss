@@ -3,31 +3,14 @@
 .elem {
 	display: flex;
 	list-style: none;
-
-	&.left {
-		flex-direction: row;
-
-		.content {
-			margin-left: -25px;
-			padding-left: 40px;
-			border-color: $secondary;
-		}
-	}
-
-	&.right {
-		flex-direction: row-reverse;
-
-		.content {
-			margin-right: -25px;
-			padding-right: 40px;
-			border-color: $accent;
-		}
-	}
 }
 
 .feature-img {
 	width: 40%;
+	height: 100%;
+	align-self: center;
 	min-width: 200px;
+	max-width: 350px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -39,6 +22,9 @@
 
 	margin-bottom: 20px;
 
+	h2 {
+		margin: 0;
+	}
 
 	h3 {
 		margin: 0;
@@ -49,3 +35,46 @@
 	}
 }
 
+.tech {
+	margin: 0;
+	color: grey;
+}
+
+.elem {
+	@media all and (max-width: $phone-screen-width) {
+		flex-direction: column;
+
+		.content {
+			padding-top: 50px;
+			margin-top: -50px;
+		}
+	}
+
+	@media not all and (max-width: $phone-screen-width) {
+		&.left {
+			flex-direction: row;
+		
+			.content {
+				margin-left: -25px;
+				padding-left: 40px;
+			}
+		}
+		
+		&.right {
+			flex-direction: row-reverse;
+		
+			.content {
+				margin-right: -25px;
+				padding-right: 40px;
+			}
+		}
+	}
+
+	&.left .content {
+		border-color: $secondary;
+	}
+
+	&.right .content {
+		border-color: $accent;
+	}
+}
