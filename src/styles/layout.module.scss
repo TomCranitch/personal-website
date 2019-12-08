@@ -6,9 +6,7 @@
 }
 
 .menu {
-	width: 20%;
 	min-width: 200px;
-	padding: 20px;
 	text-align: center;
 }
 
@@ -34,7 +32,7 @@
 }
 
 
-@media (max-width: $small-screen-width) {
+@media all and (max-width: $small-screen-width) {
 	.menu {
 		width: 100%;
 	}
@@ -48,4 +46,12 @@
 		padding: 0;
 	}
 
+}
+
+
+@media not all and (max-width: $small-screen-width) {
+	.menu {
+		width: 20%;
+		padding: 20px;
+	}
 }
