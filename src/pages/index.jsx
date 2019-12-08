@@ -34,7 +34,7 @@ const HomePage = () => {
 						<p className={homeStyles.resumeEmployer}>Translink Division, Department of Transport and Main Roads</p>
 						<p className={homeStyles.resumeTime}>Feb. 2019 - Present</p>
 
-						<p className={homeStyles.resumeDesc}>Advise customers about signficant dealys, service disruption and changes and assist provide general assitence to customers.</p>
+						<p className={homeStyles.resumeDesc}>Advise customers about signficant dealys, service disruption and changes and provide general assistance to customers.</p>
 					</div>
 					
 				<h2>Skills</h2>
