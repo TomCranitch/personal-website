@@ -1,12 +1,14 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 import homeStyles from "../styles/index.module.scss"
 
 const HomePage = () => {
 	return (
 		<div>
+			<Head title="Home"/>
 			<div className={homeStyles.header}>
 				<div className={homeStyles.headerTitle}>
 					<p className={homeStyles.headerTitleText}>Hi!</p>

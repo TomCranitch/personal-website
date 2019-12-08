@@ -5,8 +5,13 @@
  */
 
 module.exports = {
+	siteMetadata: {
+		title: 'Tom Cranitch',
+		author: 'Tom Cranitch'
+	},
 	plugins: [
 		'gatsby-plugin-sass',
+		'gatsby-plugin-react-helmet'
 		/*{
 		  resolve: `gatsby-plugin-typography`,
 		  options: {
