@@ -1,4 +1,4 @@
-@import "colors";
+@import "consts";
 
 .container {
 	display: flex;
@@ -25,4 +25,26 @@
 .name {
 	font-size: 30px;
 	font-weight: 200;
+}
+
+.content {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+@media (max-width: $small-screen-width) {
+	.menu {
+		width: 100%;
+	}
+
+	.container {
+		flex-direction: column;
+		padding: 30px;
+	}
+
+	.content {
+		padding: 0;
+	}
+
 }

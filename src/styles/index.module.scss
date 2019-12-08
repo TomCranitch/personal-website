@@ -1,4 +1,4 @@
-@import "colors";
+@import "consts";
 
 .header {
 	background-color: $accent;
@@ -69,4 +69,19 @@
 .resume-desc {
 	margin-top: 20px;
 	margin-bottom: 40px;
+}
+
+
+@media (max-width: $small-screen-width) {
+	.header-title-text {
+		font-size: 70px;
+	}
+
+	.header-title {
+		padding-bottom: 30px;
+	}
+
+	.header-subtitle {
+		font-size: 25px;
+	}
 }
