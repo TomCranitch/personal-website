@@ -16,7 +16,7 @@ const HomePage = () => {
 					<p className={homeStyles.headerTitleText}>I'm Tom<span className={homeStyles.bullet}>.</span></p>
 				</div>
 
-				<p className={homeStyles.headerSubtitle}>I'm a second year mathematics and computer science student at the University of Queensland. You can find me on <OutboundLink href="https://github.com/TomCranitch" rel="noopener noreferrer" target="_blank">Github</a> or <OutboundLink href="https://linkedin.com/in/TomCranitch" rel="noopener noreferrer" target="_blank">LinkedIn</a>.</p>
+				<p className={homeStyles.headerSubtitle}>I'm a second year mathematics and computer science student at the University of Queensland. You can find me on <OutboundLink href="https://github.com/TomCranitch" rel="noopener noreferrer" target="_blank">Github</OutboundLink> or <OutboundLink href="https://linkedin.com/in/TomCranitch" rel="noopener noreferrer" target="_blank">LinkedIn</OutboundLink>.</p>
 
 			</div>
 			<Layout>

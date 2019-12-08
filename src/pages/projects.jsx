@@ -37,7 +37,7 @@ const ProjectsPage = () => {
 		<Layout>
 			<Head title="Projects"/>
 			<h1>Projects</h1>
-			<p>Here are some software projects I've been working on. You can view everything I've been working on, including many of my uni assignments on my <OutboundLink href="https://github.com/TomCranitch" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+			<p>Here are some software projects I've been working on. You can view everything I've been working on, including many of my uni assignments on my <OutboundLink href="https://github.com/TomCranitch" target="_blank" rel="noopener noreferrer">Github</OutboundLink>.</p>
 			<ol>
 				{data.allMarkdownRemark.nodes.map((node, i) => {
 					return (
