@@ -2,8 +2,27 @@
 
 .elem {
 	display: flex;
-	flex-direction: row;
 	list-style: none;
+
+	&.left {
+		flex-direction: row;
+
+		.content {
+			margin-left: -25px;
+			padding-left: 40px;
+			border-color: $secondary;
+		}
+	}
+
+	&.right {
+		flex-direction: row-reverse;
+
+		.content {
+			margin-right: -25px;
+			padding-right: 40px;
+			border-color: $accent;
+		}
+	}
 }
 
 .feature-img {
@@ -17,10 +36,9 @@
 	border-style: solid;
 	border-width: 7px;
 	padding: 20px;
-	border-color: $secondary;
 
-	margin-left: -25px;
-	padding-left: 40px;
+	margin-bottom: 20px;
+
 
 	h3 {
 		margin: 0;
