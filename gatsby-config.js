@@ -11,7 +11,15 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-sass',
-		'gatsby-plugin-react-helmet'
+		'gatsby-plugin-react-helmet',
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'projects',
+				path: `${__dirname}/src/projects/`
+			}
+		},
+		'gatsby-transformer-remark',
 		/*{
 		  resolve: `gatsby-plugin-typography`,
 		  options: {
