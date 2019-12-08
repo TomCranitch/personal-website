@@ -1,0 +1,72 @@
+@import "colors";
+
+.header {
+	background-color: $accent;
+	overflow: hidden;
+	padding-right: 40px;
+	padding-left: 20px;
+	color: white;
+}
+
+@media (min-width: 1080px) {
+	.header {
+		padding-right: 80px;
+	}
+}
+
+.header-title {
+	margin: 0;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+.header-title-text {
+	margin: 0;
+	font-size: 150px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.header-subtitle {
+	font-size: 30px;
+	padding: 25px;
+	text-align: right;
+	max-width: 760px;
+	float: right;
+	font-weight: 300;
+}
+
+.header-subtitle a {
+	color: $secondary;
+	font-weight: bold;
+}
+
+.bullet {
+	color: $secondary;
+}
+
+.resume-job, h3 {
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+.resume-employer {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.resume-time {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.resume-desc {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}

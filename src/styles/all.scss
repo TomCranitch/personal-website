@@ -1,0 +1,24 @@
+@import "colors";
+
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+	font-family: inter, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: $accent;
+}
+
+a:hover {
+	color: $secondary;
+}
+
+h2 {
+	font-size: 35px;
+}

@@ -1,0 +1,23 @@
+@import "colors";
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.menu {
+	width: 20%;
+	min-width: 200px;
+	padding: 20px;
+	text-align: center;
+}
+
+.menu li {
+	list-style: none;
+	margin: 0;
+}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+}
