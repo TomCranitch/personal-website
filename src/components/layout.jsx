@@ -10,7 +10,7 @@ const Layout = (props) => {
 	return (
 		<div className={layoutStyles.container}>
 			<div className={layoutStyles.menu}>
-				<p>Tom Cranitch</p>
+				<p className={layoutStyles.name}>Tom Cranitch</p>
 				<nav>
 					<ul>
 						<li>	

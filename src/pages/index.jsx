@@ -39,9 +39,8 @@ const HomePage = () => {
 					<h3>Languages</h3>
 						<p>Dart and Flutter; Python; Java; C; MATLAB</p>
 					<h3>Technologies</h3>
-						<p>Git; Vim; SVN; basic Bash</p>
+						<p>Git; Vim; SVN; use of Linux Systems</p>
 						
-				<h2>Coursework</h2>
 			</Layout>
 		</div>
 	)
